@@ -5,6 +5,8 @@ import pygame
 import numpy as np
 import time
 
+from pygame.constants import K_ESCAPE
+
 pygame.init()
 
 # Ancho y alto de la pantalla.
@@ -83,6 +85,8 @@ while True:
             celX, celY = int(np.floor(posX / dimCW)), int(np.floor(posY / dimCH))
             newGameState[celX, celY] = 1
 
+        if event.type == pygame.QUIT:
+            pygame.quit()
     for y in range (0, nxC):
         for x in range (0, nyC):
 
