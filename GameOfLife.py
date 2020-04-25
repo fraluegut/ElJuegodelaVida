@@ -39,6 +39,20 @@ gameState[22, 23] = 1
 gameState[21, 23] = 1
 gameState[20, 23] = 1
 
+gameState[10, 21] = 1
+gameState[11, 21] = 1
+gameState[12, 23] = 1
+gameState[13, 23] = 1
+gameState[14, 23] = 1
+gameState[15, 21] = 1
+gameState[16, 21] = 1
+gameState[17, 23] = 1
+gameState[18, 23] = 1
+gameState[19, 23] = 1
+gameState[20, 21] = 1
+gameState[21, 23] = 1
+gameState[23, 23] = 1
+
 gameState[1, 1] = 1
 gameState[1, 2] = 1
 gameState[1, 3] = 1
